@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>      
+        <title>Analytical Dashboard</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- <link href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/themes/smoothness/jquery-ui.css" rel="stylesheet" type="text/css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+        <script src="js/jquery-3.5.1.js"></script> -->
+        <link rel="stylesheet" href="jquery-ui-1.10.3/themes/base/jquery.ui.all.css">
+        <link rel="stylesheet" href="css/all.min.css">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/index_style.css">      
+    </head>
+    <body>
+        <!--Dashboard Page-->
+        <section id="dashboard">
+            <div class="heading">
+                <h2>Drew's Analytical Dashboard</h2>
+             </div>           
+                  <div class="row">
+                        <div class="col-sm-3 border-right images" id="imageholder">
+                            <img class="img-fluid" src="images/chart-1.jpg">
+                            <!--draggable="true"-->
+                            <img class="img-fluid" src="images/chart-2.png">
+                            <img class="img-fluid" src="images/chart-3.jpg">
+                        </div>
+                        <div class="col-sm-8 editingZone d-flex justify-content-center align-items-center" id="dropZone">
+                            <i class="fas fa-plus-circle" id="icon"></i>
+                        </div>
+                  </div>
+                  <button class="btn btn-primary my-4 float-right mx-5" id="button">Save preset</button>
+
+                  <div id="presets" class="my-5 p-5"></div>
+                  <!-- <div class="bg-primary resize">Hiiiiiiiiiiiiiii</div> -->
+             
+       </section>
+
+       <script src="js/jquery-3.5.1.js"></script>
+        <script src="jquery-ui-1.10.3/ui/jquery-ui.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.js"></script>
+        <script src="js/main.js"></script>
+       
+    </body>
+</html>
